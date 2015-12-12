@@ -8,9 +8,9 @@ public class task5 {
 
 		Scanner sc = new Scanner(System.in);
 
-		System.out.print("Въведете първия низ: ");
+		System.out.print("Р’СЉРІРµРґРµС‚Рµ РїСЉСЂРІРёСЏ РЅРёР·: ");
 		String s1 = sc.nextLine();
-		System.out.print("Въведете втория низ: ");
+		System.out.print("Р’СЉРІРµРґРµС‚Рµ РІС‚РѕСЂРёСЏ РЅРёР·: ");
 		String s2 = sc.nextLine();
 		int count = 1;
 		for (int i1 = 1; i1 < s1.length() - 1; i1++) {
