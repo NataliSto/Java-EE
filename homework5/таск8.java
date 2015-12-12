@@ -2,11 +2,11 @@ package homework5;
 
 import java.util.Scanner;
 
-public class таск8 {
+public class С‚Р°СЃРє8 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		System.out.print("Въведете дума: ");
+		System.out.print("Р’СЉРІРµРґРµС‚Рµ РґСѓРјР°: ");
 		String s1 = sc.nextLine();
 		int length = s1.length();
 		boolean specular = false;
@@ -25,6 +25,6 @@ public class таск8 {
 		if (s1.charAt(length - 1) == 1) {
 			specular = true;
 		}
-		System.out.println("Думата палиндром ли е? " + specular);
+		System.out.println("Р”СѓРјР°С‚Р° РїР°Р»РёРЅРґСЂРѕРј Р»Рё Рµ? " + specular);
 	}
 }
