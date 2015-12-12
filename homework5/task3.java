@@ -6,16 +6,16 @@ public class task3 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		System.out.print("Въведете първата дума: ");
+		System.out.print("Р’СЉРІРµРґРµС‚Рµ РїСЉСЂРІР°С‚Р° РґСѓРјР°: ");
 		String s1 = sc.nextLine();
-		System.out.print("Въведете втората дума: ");
+		System.out.print("Р’СЉРІРµРґРµС‚Рµ РІС‚РѕСЂР°С‚Р° РґСѓРјР°: ");
 		String s2 = sc.nextLine();
 
 		int count = 0;
 		if (s1.length() == s2.length()) {
-			System.out.println("Двата низа са с равна дължина.");
+			System.out.println("Р”РІР°С‚Р° РЅРёР·Р° СЃР° СЃ СЂР°РІРЅР° РґСЉР»Р¶РёРЅР°.");
 
-			System.out.println("Разлика по позиции:");
+			System.out.println("Р Р°Р·Р»РёРєР° РїРѕ РїРѕР·РёС†РёРё:");
 			for (int index1 = 0, index2 = 0; index1 <= s1.length() - 1
 					&& index2 <= s2.length() - 1; index1++, index2++) {
 				count++;
@@ -29,7 +29,7 @@ public class task3 {
 				}
 			}
 		} else {
-			System.out.println("Двата низа са с различна дължина");
+			System.out.println("Р”РІР°С‚Р° РЅРёР·Р° СЃР° СЃ СЂР°Р·Р»РёС‡РЅР° РґСЉР»Р¶РёРЅР°");
 		}
 	}
 
