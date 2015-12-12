@@ -5,14 +5,14 @@ import java.util.Scanner;
 public class task3 {
 
 	public static void main(String[] args) {
-//		Задача 3:
-//			Въведете 2 различни числа от конзолата и разменете стойността им.
-//			Разпечатайте новите стойности
+//		Р—Р°РґР°С‡Р° 3:
+//		Р’СЉРІРµРґРµС‚Рµ 2 СЂР°Р·Р»РёС‡РЅРё С‡РёСЃР»Р° РѕС‚ РєРѕРЅР·РѕР»Р°С‚Р° Рё СЂР°Р·РјРµРЅРµС‚Рµ СЃС‚РѕР№РЅРѕСЃС‚С‚Р° РёРј.
+//		Р Р°Р·РїРµС‡Р°С‚Р°Р№С‚Рµ РЅРѕРІРёС‚Рµ СЃС‚РѕР№РЅРѕСЃС‚Рё
 
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Въведете А :");
+		System.out.println("Р’СЉРІРµРґРµС‚Рµ Рђ :");
 		double a = sc.nextDouble();
-		System.out.println("Въведете B :");
+		System.out.println("Р’СЉРІРµРґРµС‚Рµ B :");
 		double b = sc.nextDouble();
 		double a1 = b;
 		b= a;
