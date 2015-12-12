@@ -6,7 +6,7 @@ public class task4 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		System.out.print("Въведете двете имена: ");
+		System.out.print("Р’СЉРІРµРґРµС‚Рµ РґРІРµС‚Рµ РёРјРµРЅР°: ");
 		String s1 = sc.nextLine();
 		int count = 0;
 
