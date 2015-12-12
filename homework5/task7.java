@@ -6,7 +6,7 @@ public class task7 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		System.out.print("Въведете набор от думи разделени с интервал: ");
+		System.out.print("Р’СЉРІРµРґРµС‚Рµ РЅР°Р±РѕСЂ РѕС‚ РґСѓРјРё СЂР°Р·РґРµР»РµРЅРё СЃ РёРЅС‚РµСЂРІР°Р»: ");
 		String s1 = sc.nextLine();
 
 		String[] s2 = s1.split(" ");
@@ -20,6 +20,6 @@ public class task7 {
 			}
 		}
 
-		System.out.print(count + " думи, най-дългата е " + word + " символа.");
+		System.out.print(count + " РґСѓРјРё, РЅР°Р№-РґСЉР»РіР°С‚Р° Рµ " + word + " СЃРёРјРІРѕР»Р°.");
 	}
 }
