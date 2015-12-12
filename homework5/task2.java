@@ -6,12 +6,12 @@ public class task2 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		System.out.print("Âúâåäåòå ïúðâàòà äóìà: ");
+		System.out.print("Ð’ÑŠÐ²ÐµÐ´ÐµÑ‚Ðµ Ð¿ÑŠÑ€Ð²Ð°Ñ‚Ð° Ð´ÑƒÐ¼Ð°: ");
 		String s1 = sc.nextLine();
-		System.out.print("Âúâåäåòå âòîðàòà äóìà: ");
+		System.out.print("Ð’ÑŠÐ²ÐµÐ´ÐµÑ‚Ðµ Ð²Ñ‚Ð¾Ñ€Ð°Ñ‚Ð° Ð´ÑƒÐ¼Ð°: ");
 		String s2 = sc.nextLine();
 		if (!(s1.length() >= 10 && s1.length() <= 20 && s2.length() >= 10 && s2.length() <= 20)) {
-			System.out.println("Âúâåëè ñòå äóìè ñ íåêîðåêòíà äúëæèíà ");
+			System.out.println("Ð’ÑŠÐ²ÐµÐ»Ð¸ ÑÑ‚Ðµ Ð´ÑƒÐ¼Ð¸ Ñ Ð½ÐµÐºÐ¾Ñ€ÐµÐºÑ‚Ð½Ð° Ð´ÑŠÐ»Ð¶Ð¸Ð½Ð° ");
 		} else {
 
 			String s3 = s2.substring(0, 5) + s1.substring(5, s1.length());
@@ -21,7 +21,7 @@ public class task2 {
 				System.out.println(s2.length() + " " + s4);
 			}
 			if (s2.length() == s1.length()) {
-				System.out.println("Äúëæèíèòå íà äâåòå äóìè ñà ðàâíè " + s1.length() + " " + " " + s3 + " " + s4);
+				System.out.println("Ð”ÑŠÐ»Ð¶Ð¸Ð½Ð¸Ñ‚Ðµ Ð½Ð° Ð´Ð²ÐµÑ‚Ðµ Ð´ÑƒÐ¼Ð¸ ÑÐ° Ñ€Ð°Ð²Ð½Ð¸ " + s1.length() + " " + " " + s3 + " " + s4);
 			}
 			if (s2.length() < s1.length()) {
 				System.out.println(s1.length() + " " + s3);
