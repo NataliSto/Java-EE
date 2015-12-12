@@ -6,12 +6,12 @@ public class task1 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		System.out.print("Въведете първия низ: ");
+		System.out.print("Р’СЉРІРµРґРµС‚Рµ РїСЉСЂРІРёСЏ РЅРёР·: ");
 		String s1 = sc.nextLine();
-		System.out.print("Въведете втория низ: ");
+		System.out.print("Р’СЉРІРµРґРµС‚Рµ РІС‚РѕСЂРёСЏ РЅРёР·: ");
 		String s2 = sc.nextLine();
 		if (s1.length() + s2.length() > 40) {
-			System.out.println("Въведените низове са с дължина по-голяма от 40 символа");
+			System.out.println("Р’СЉРІРµРґРµРЅРёС‚Рµ РЅРёР·РѕРІРµ СЃР° СЃ РґСЉР»Р¶РёРЅР° РїРѕ-РіРѕР»СЏРјР° РѕС‚ 40 СЃРёРјРІРѕР»Р°");
 		} else {
 
 			System.out.println(
