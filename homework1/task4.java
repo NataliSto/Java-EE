@@ -5,13 +5,13 @@ import java.util.Scanner;
 public class task4 {
 
 	public static void main(String[] args) {
-//		Çàäà÷à 4:
-//			Âúâåäåòå 2 ðàçëè÷íè ÷èñëà îò êîíçîëàòà è ãè ðàçïå÷àòàéòå â
-//			íàðàñòâàù ðåä.
+//		Ð—Ð°Ð´Ð°Ñ‡Ð° 4:
+//		Ð’ÑŠÐ²ÐµÐ´ÐµÑ‚Ðµ 2 Ñ€Ð°Ð·Ð»Ð¸Ñ‡Ð½Ð¸ Ñ‡Ð¸ÑÐ»Ð° Ð¾Ñ‚ ÐºÐ¾Ð½Ð·Ð¾Ð»Ð°Ñ‚Ð° Ð¸ Ð³Ð¸ Ñ€Ð°Ð·Ð¿ÐµÑ‡Ð°Ñ‚Ð°Ð¹Ñ‚Ðµ Ð²
+//		Ð½Ð°Ñ€Ð°ÑÑ‚Ð²Ð°Ñ‰ Ñ€ÐµÐ´.
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Âúâåäåòå À :");
+		System.out.println("Ð’ÑŠÐ²ÐµÐ´ÐµÑ‚Ðµ Ð :");
 		int a = sc.nextInt();
-		System.out.println("Âúâåäåòå B :");
+		System.out.println("Ð’ÑŠÐ²ÐµÐ´ÐµÑ‚Ðµ B :");
 		int b = sc.nextInt();
 		if(a>b){
 			System.out.println( b+ " " + a);
