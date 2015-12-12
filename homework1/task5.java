@@ -5,16 +5,16 @@ import java.util.Scanner;
 public class task5 {
 
 	public static void main(String[] args) {
-//		Задача 5:
-//			Въведете 3 различни числа от конзолата и ги разпечатайте в низходящ
-//			ред.
+//		Р—Р°РґР°С‡Р° 5:
+//		Р’СЉРІРµРґРµС‚Рµ 3 СЂР°Р·Р»РёС‡РЅРё С‡РёСЃР»Р° РѕС‚ РєРѕРЅР·РѕР»Р°С‚Р° Рё РіРё СЂР°Р·РїРµС‡Р°С‚Р°Р№С‚Рµ РІ РЅРёР·С…РѕРґСЏС‰
+//		СЂРµРґ.
 
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Въведете А :");
+		System.out.println("Р’СЉРІРµРґРµС‚Рµ Рђ :");
 		int a = sc.nextInt();
-		System.out.println("Въведете B :");
+		System.out.println("Р’СЉРІРµРґРµС‚Рµ B :");
 		int b = sc.nextInt();
-		System.out.println("Въведете C :");
+		System.out.println("Р’СЉРІРµРґРµС‚Рµ C :");
 		int c = sc.nextInt();
 		boolean ab = a < b;
 		boolean ba = a > b;
